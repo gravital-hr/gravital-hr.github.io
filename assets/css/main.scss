@@ -3,10 +3,31 @@
 
 @charset "utf-8";
 
-// Import partials from `sass_dir` (defaults to `_sass`)
-@import
-        "member-box",
-        "timeline",
-        "page",
-        "icons"
-;
+$enable-dark-mode: false;
+
+// https://huemint.com/bootstrap-basic/#palette=e3f2f4-ffffff-231f20-59419a-d3c4e0-fccf5d
+$white:      #ffffff;
+$light:      #d3c4e0;
+$dark:       #231f20;
+$primary:    #59419a;
+$secondary:  #d3c4e0;
+$info:       #fccf5d;
+$success:    #1fc579;
+$warning:    #e9d519;
+$danger:     #fc2a0c;
+
+$orange:     #fccf5d;
+$brown:      #231f20;
+
+@import "creative/styles";
+
+@import "member-box", "timeline", "page", "icons", "pricing";
+
+@font-face {
+  font-family: 'Varelmo Round';
+  src: url(../VarelmoRound.ttf);
+}
+
+#mainNav .navbar-brand {
+    font-family: 'Varelmo Round';
+}

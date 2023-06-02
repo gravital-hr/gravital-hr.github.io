@@ -1,0 +1,46 @@
+<section class="page-section {{ section.background_style }}" id="{{ section.section_id }}">
+  <div class="container px-4 px-lg-5">
+    <h2 class="text-center mt-0">{{ section.title }}</h2>
+    <hr class="divider border border-primary border-2">
+    <div class="row gx-4 gx-lg-5 justify-content-center">
+      
+      <div id="{{ section.section_id }}_carousel" class="carousel slide" data-ride="carousel">
+
+        {% assign active_section = 'active' %}
+        {% assign active_section_id = 0 %}
+        <div class="carousel-indicators">
+        {% for service in section.actions %}        
+          <button type="button" data-bs-target="#{{ section.section_id }}_carousel" data-bs-slide-to="{{ active_section_id }}" class="{{ active_section }}" aria-label="{{ service.name }}"></button>
+          {% assign active_section = '' %}
+          {% assign active_section_id = active_section_id | plus:1 %}
+        {% endfor %}
+        </div>
+
+        <div class="carousel-inner d-flex align-items-center" style="width: 70%; margin: auto; height: {{ section.height }}">
+        {% assign active_section = 'active' %}
+        {% for service in section.actions %}        
+          <div class="carousel-item {{active_section}}" >
+            <!-- <div class=" align-items-center mx-4" > -->
+              <blockquote class="blockquote  ">
+                <p><i class="bi bi-quote"></i>{{ service.text }}</p>
+                <footer class="blockquote-footer">{{ service.name }} <cite title="Source Title">/{{ service.title}}/</cite></footer>
+              </blockquote>
+            <!-- </div> -->
+          </div>
+          {% assign active_section = '' %}
+        {% endfor %}
+        </div>
+
+        <button class="carousel-control-prev" type="button" data-bs-target="#{{ section.section_id }}_carousel" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#{{ section.section_id }}_carousel" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+
+    </div>
+  </div>
+</section>

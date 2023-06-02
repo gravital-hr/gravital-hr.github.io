@@ -79,64 +79,45 @@ sections:
         icon: 6.jpg
         url: '#'
 
-  - type: aside.html
-    section_id: aside
-    title: Free Download at Start Bootstrap!
-    actions:
-      - title: Download Now!
-        url: https://startbootstrap.com/themes/creative/
-        class: btn-light
-
-  - type: members.html
-    section_id: members
-    title: Our Crew!
-    background_style: bg-info text-white
-    members:
-      - title: Christina M. Aponte
-        text: Singer and Songwriter
-        image: assets/img/members/person1.jpg
-        url: '#'
-      - title: Gary D. Stevens
-        text: Bass guitar.
-        image: assets/img/members/person2.jpg
-        url: '#'
-      - title: Devon J. Fletcher
-        text: Lead guitar.
-        image: assets/img/members/person3.jpg
-        url: '#'
-      - title: Todd E. Anderson
-        text: Drums, percussion.
-        image: assets/img/members/person5.jpg
-        url: '#'
-      - title: Daniel T. Riley
-        text: Musician, songwriter, producer.
-        image: assets/img/members/person6.jpg
-        url: '#'
-      - title: Ella P. Walter
-        text: PR.
-        image: assets/img/members/person7.jpg
-        url: '#'
-
-  - type: timeline.html
-    section_id: timeline
-    title: Major Achievements!
+  - type: testimonials.html
+    section_id: testimonials
+    title: What the others say about us?
     background_style: bg-dark text-primary
-    last_image: assets/img/timeline-end.png
+    height: 10em
     actions:
-      - image: assets/img/portfolio/thumbnails/1.jpg
-        title: >+
-          2017-2018
-          **Humble Beginnings**
-        text: >-
-          We begun with small group of people willing to work hard and make our
-          teaching skills worth , in front of all others!
-      - image: assets/img/portfolio/thumbnails/2.jpg
-        title: >+
-          November 2019
-          An Coaching started
-        text: >-
-          We started to gather like minded people and started our stategies
-          and future plans to them. As a result , interested people joined us!
+    - name: Ivan Ivanov
+      title: CEO of Fantastico
+      text: Бахти якото
+    - name: Мария Бакалова
+      title: HR - Nova TV
+      text: We won the prize!
+
+  - type: pricing.html
+    section_id: pricing
+    #background_style: bg-info
+    prices:
+      - title: Free
+        price: 0
+        interval: per month
+        action: Get Starter
+        url: '#'
+        features:
+        - Up to 10 Users
+        - 10 Projects
+        - 5GB of Storage
+        - Unlimited Data
+        - Fully Security Suite
+      - title: Pro
+        price: $69
+        interval: per month
+        action: Get Starter
+        url: '#'
+        features:
+        - Up to 10 Users
+        - Unlimited Projects
+        - 50GB of Storage
+        - Unlimited Data
+        - Fully Security Suite
 
   - type: contact.html
     section_id: contacts

@@ -1,0 +1,35 @@
+.pricing-table-block{
+    background: $light-bg-subtle;
+    text-align:center;
+}
+.pricing-table-block .plan-name{
+    padding: map_get($spacers, 3);
+    background: $component-active-bg;
+    margin-bottom: map_get($spacers, 2);
+    color: $white;
+}
+.pricing-table-block .plan-price{
+    margin-bottom: map_get($spacers, 3);
+}
+.pricing-table-block .plan-price .price-value{
+    font-size: $h1-font-size;
+    line-height: $h1-font-size * 1.25;
+    font-weight: $font-weight-bold;
+    color: $primary;
+}
+.pricing-table-block .plan-price .interval{
+    font-size:$font-size-sm;
+    font-weight:$font-weight-bold;
+}
+
+.pricing-table-block .plan-list li{
+    padding:map_get($spacers, 2);
+    letter-spacing:1px;
+    border-bottom:1px solid $light-border-subtle;
+}
+//.pricing-table-block .plan-signup{
+//    padding:15px 0px 30px
+//}
+//.pricing-table-block .plan-signup a{
+//    text-transform:uppercase
+//}
