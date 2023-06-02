@@ -5,8 +5,8 @@
     <div class="row gx-4 gx-lg-5 justify-content-center">
       <!-- {#% assign cols = section.size | at_most: 4 %#} -->
       {% assign cols = section.size %}
-      {% if cols > 4 %}
-        {% assign cols = 4 %}
+      {% if cols > 3 %}
+        {% assign cols = 3 %}
       {% endif %}
 
       {% assign colsL = 12 | divided_by: cols %}

@@ -3,10 +3,11 @@ layout: home
 menu_language: en
 
 header:
-  title: YOUR FAVORITE SOURCE OF FREE BOOTSTRAP THEMES
+  title: The Gravity of Talents in one HR Software
   text: >
-    Start Bootstrap can help you build better websites using the Bootstrap
-    framework! Just download a theme and start customizing, no strings attached!
+    Centralizing all HR data in a 
+    single platform resulting in 
+    measurable business outcomes.
   action: # action button is optional
     label: Find Out More
     url: '#about'
@@ -16,8 +17,17 @@ sections:
   - type: call-to-action.html
     section_id: about
     background_style: bg-primary
-    title: We've got what you need!
-    text: Start Bootstrap has everything you need to get your new website up and running in no time! All of the templates and themes on Start Bootstrap are open source, free to download, and easy to use. No strings attached!
+    title: We feel your pain!
+    text: |
+        **How many different software tools** for 
+        workforce management do you have to use **daily**?
+        
+        How much valuable time is waisted in gathering HR data 
+        for the employee’s journey **from different sources**?
+        
+        How long you'll have to listen to complains that employes
+        have to keep track of their requests across **several, 
+        platforms**.
     actions:
       - title: Get Started!
         url: '#page-top'
@@ -26,39 +36,54 @@ sections:
   - type: services.html
     section_id: services
     #background_style: bg-info
-    title: At Your Service
+    title: <span class="brand">Explore Gravital</span>
     services:
-      - title: Sturdy Templates
-        text: Our templates are updated regularly so they don't break.
-        icon: bi-gem text-info
-        url: https://startbootstrap.com/
-      - title: Ready to Ship
-        text: You can use this theme as is, or you can make changes!
-        icon: bi-rocket-takeoff
-      - title: Up to Date
-        text: We update dependencies to keep things fresh.
-        icon: bi-activity
-      - title: Made with Love
-        text: You have to make your websites with love these days!
-        icon: bi-heart-fill
-      - title: Other 1
-        text: Some not-so long text here.
-        icon: bi-emoji-heart-eyes
-      - title: Other 2
-        text: Some not-so long text here.
-        icon: bi-emoji-sunglasses-fill
+      - title: Learning Management System
+        text: |
+            Create seamless onboarding experience in compliance with the law.
+            Ensure people growth, through continuous learning, evaluation and progress tracking.
+        icon: bi-book
+        url: #
+      - title: Goal Setting and Appraisal
+        text: |
+            Create company alignment by setting SMART goals on all levels with insighfull statistics.
+            Make data-based decisions about bonuses and development by using regular appraisal campains.
+        icon: bi-list-check
+      - title: Values and 24/7 Feedback
+        text: |
+            Creating organizational values with top-down approach.
+            24/7 peer-to-peer Feedback system focused on values and responsibilites.
+        icon: bi-stars
+      - title: Career & Development
+        text: |
+            Full control and insights about the recruitment process.
+            Provide guidelines and information to connect mentors and mentees.
+        icon: bi-person-up
+      - title: Time Off Management
+        text: |
+            Just get some time-off when needed. No paperwork, no bureaucracy!
+        icon: bi-clock-history
+      - title: Inventory Management
+        text: |
+            A "vending machine" for all the tools that enables your staff to simlpy
+            do their job effectively.
+        icon: bi-box-seam
 
   - type: portfolio.html
     # this section has always ID 'portfolio'
     #section_id: portfolio
     #background_style: bg-dark
     projects:
-      - title: Project 1
-        text: This is a very short project description.
+      - title: Fantastico
+        text: |
+            Fantastico is a Bulgarian supermarket chain founded in 1991. 
+            They are using Gratival since ....
+            In this short time they were able to reduce the onboarding time from
+            3 weeks to a couple of days.
         # the images are located in:
         # img/portfolio/fullsize
         # img/portfolio/thumbnails
-        icon: 1.jpg
+        icon: fantastico.jpg
         url: '#'
       - title: Project 2
         text: This is a very short project description.
@@ -85,12 +110,15 @@ sections:
     section_id: testimonials
     title: What the others say about us?
     background_style: bg-dark text-primary
-    height: 10em
+    height: 14em
     actions:
+    - name: Галина Димитрова
+      title: HR мениджъра на Нова Броудкастинг Груп
+      text: |
+          Гордеем се, че служителите се припознават в общата мисия, а именно Създаваме вдъхновение, 
+          за да вълнуваме и оставяме следа. Удовлетворени сме, че вярват в смисъла на системата 
+          за оценка и развитие като средство за личностно и професионално развитие. 
     - name: Ivan Ivanov
-      title: CEO of Fantastico
-      text: Бахти якото
-    - name: Мария Бакалова
       title: HR - Nova TV
       text: We won the prize!
 
