@@ -1,14 +1,13 @@
 ---
 layout: home
-menu_language: en
+menu_language: bg
 
 header:
-  title: YOUR FAVORITE SOURCE OF FREE BOOTSTRAP THEMES
+  title: Темата на български
   text: >
-    Start Bootstrap can help you build better websites using the Bootstrap
-    framework! Just download a theme and start customizing, no strings attached!
+    Ето го и нашият сайт на български
   action: # action button is optional
-    label: Find Out More
+    label: Готови ли сте да научите повече?
     url: '#about'
 
 
@@ -16,37 +15,35 @@ sections:
   - type: call-to-action.html
     section_id: about
     background_style: bg-primary
-    title: We've got what you need!
-    text: Start Bootstrap has everything you need to get your new website up and running in no time! All of the templates and themes on Start Bootstrap are open source, free to download, and easy to use. No strings attached!
+    title: Ние имаме това, от което се нуждаете.
+    text: |
+        Аз съм българче и силна
+        майка мене е родила;
+        с хубости, блага обилна
+        мойта родина е мила.
     actions:
-      - title: Get Started!
+      - title: Научете повече
         url: '#page-top'
         class: btn-light
 
   - type: services.html
     section_id: services
     #background_style: bg-info
-    title: At Your Service
+    title: Модули
     services:
-      - title: Sturdy Templates
+      - title: Обучение
         text: Our templates are updated regularly so they don't break.
         icon: bi-gem text-info
         url: https://startbootstrap.com/
-      - title: Ready to Ship
+      - title: Атестации
         text: You can use this theme as is, or you can make changes!
         icon: bi-rocket-takeoff
-      - title: Up to Date
+      - title: Обратна връзка
         text: We update dependencies to keep things fresh.
         icon: bi-activity
-      - title: Made with Love
+      - title: Организационна Структура
         text: You have to make your websites with love these days!
         icon: bi-heart-fill
-      - title: Other 1
-        text: Some not-so long text here.
-        icon: bi-emoji-heart-eyes
-      - title: Other 2
-        text: Some not-so long text here.
-        icon: bi-emoji-sunglasses-fill
 
   - type: portfolio.html
     # this section has always ID 'portfolio'
@@ -83,25 +80,25 @@ sections:
 
   - type: testimonials.html
     section_id: testimonials
-    title: What the others say about us?
+    title: Какво казват другите за нас?
     background_style: bg-dark text-primary
     height: 10em
     actions:
-    - name: Ivan Ivanov
-      title: CEO of Fantastico
+    - name: Иван Иванов
+      title: Управител - Фантастико
       text: Бахти якото
     - name: Мария Бакалова
-      title: HR - Nova TV
-      text: We won the prize!
+      title: HR - Нова Телевизия
+      text: Благодарение на нашите партньори спечелихме наградата ...
 
   - type: pricing.html
     section_id: pricing
     #background_style: bg-info
     prices:
-      - title: Free
+      - title: Безплатно
         price: 0
-        interval: per month
-        action: Get Starter
+        interval: на месец
+        action: Обади се
         url: '#'
         features:
         - Up to 10 Users
@@ -109,10 +106,10 @@ sections:
         - 5GB of Storage
         - Unlimited Data
         - Fully Security Suite
-      - title: Pro
+      - title: Про
         price: $69
-        interval: per month
-        action: Get Starter
+        interval: на месец
+        action: Обади се
         url: '#'
         features:
         - Up to 10 Users
@@ -123,7 +120,7 @@ sections:
 
   - type: contact.html
     section_id: contacts
-    title: Let's Get In Touch!
+    title: Свържете се с нас
     text: >-
       Ready to start your next project with us? Give us a call or send us an email
       and we will get back to you as soon as possible!
