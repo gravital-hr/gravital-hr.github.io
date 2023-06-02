@@ -85,25 +85,25 @@ sections:
         # img/portfolio/thumbnails
         icon: fantastico.jpg
         url: '#'
-      - title: Project 2
+      - title: Lukoil Bulgaria
         text: This is a very short project description.
-        icon: 2.jpg
+        icon: lukoil.jpg
         url: '#'
-      - title: Project 3
+      - title: Nova Broadcasting Group
         text: This is a very short project description.
-        icon: 3.jpg
+        icon: nova.jpg
         url: '#'
-      - title: Project 4
+      - title: Groupama
         text: This is a very short project description.
-        icon: 4.jpg
+        icon: groupama.jpg
         url: '#'
-      - title: Project 5
+      - title: Generali
         text: This is a very short project description.
-        icon: 5.jpg
+        icon: generali.jpg
         url: '#'
-      - title: Project 6
+      - title: DZI - part of KBC Group
         text: This is a very short project description.
-        icon: 6.jpg
+        icon: dzi.jpg
         url: '#'
 
   - type: testimonials.html
