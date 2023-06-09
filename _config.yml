@@ -21,4 +21,6 @@ exclude:
   - Gemfile
   - Gemfile.lock
   - build-in-docker.sh
+  - vendor/bundle
+  - LICENSE
   - README.md
