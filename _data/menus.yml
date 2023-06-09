@@ -5,22 +5,22 @@ en:
       url: /#services
     - title: Testimonials
       url: /#testimonials
+    - title: Prices
+      url: /#pricing
     - title: Contacts
       url: /#contacts
-    - title: Links
-      url: /links
     - title: 🇧🇬
       url: /bg
 bg:
     - title: Относно
-      url: /#about
+      url: /bg#about
     - title: Модули
-      url: /#services
+      url: /bg#services
     - title: Отзиви
-      url: /#testimonials
+      url: /bg#testimonials
+    - title: Цени
+      url: /bg#pricing
     - title: Контакти
-      url: /#contacts
-    - title: Links
-      url: /links
+      url: /bg#contacts
     - title: 🇬🇧
       url: /

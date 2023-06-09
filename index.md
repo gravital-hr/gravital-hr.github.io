@@ -29,8 +29,8 @@ sections:
         have to keep track of their requests across **several, 
         platforms**.
     actions:
-      - title: Get Started!
-        url: '#page-top'
+      - title: End it now!
+        url: '#pricing'
         class: btn-light
 
   - type: services.html
@@ -43,7 +43,6 @@ sections:
             Create seamless onboarding experience in compliance with the law.
             Ensure people growth, through continuous learning, evaluation and progress tracking.
         icon: bi-book
-        url: #
       - title: Goal Setting and Appraisal
         text: |
             Create company alignment by setting SMART goals on all levels with insighfull statistics.
@@ -69,58 +68,53 @@ sections:
             do their job effectively.
         icon: bi-box-seam
 
-  - type: portfolio.html
-    # this section has always ID 'portfolio'
-    #section_id: portfolio
-    #background_style: bg-dark
-    projects:
-      - title: Fantastico
-        text: |
-            Fantastico is a Bulgarian supermarket chain founded in 1991. 
-            They are using Gratival since ....
-            In this short time they were able to reduce the onboarding time from
-            3 weeks to a couple of days.
-        # the images are located in:
-        # img/portfolio/fullsize
-        # img/portfolio/thumbnails
-        icon: fantastico.jpg
-        url: '#'
-      - title: Lukoil Bulgaria
-        text: This is a very short project description.
-        icon: lukoil.jpg
-        url: '#'
-      - title: Nova Broadcasting Group
-        text: This is a very short project description.
-        icon: nova.jpg
-        url: '#'
-      - title: Groupama
-        text: This is a very short project description.
-        icon: groupama.jpg
-        url: '#'
-      - title: Generali
-        text: This is a very short project description.
-        icon: generali.jpg
-        url: '#'
-      - title: DZI - part of KBC Group
-        text: This is a very short project description.
-        icon: dzi.jpg
-        url: '#'
+#  - type: portfolio.html
+#    projects:
+#      - title: Fantastico
+#        text: |
+#            Fantastico is a Bulgarian supermarket chain founded in 1991.
+#            They are using Gratival since ....
+#            In this short time they were able to reduce the onboarding time from
+#            3 weeks to a couple of days.
+#        # the images are located in:
+#        # img/portfolio/fullsize
+#        # img/portfolio/thumbnails
+#        icon: fantastico.jpg
+#        url: '#'
+#      - title: Lukoil Bulgaria
+#        text: This is a very short project description.
+#        icon: lukoil.jpg
+#        url: '#'
+#      - title: Nova Broadcasting Group
+#        text: This is a very short project description.
+#        icon: nova.jpg
+#        url: '#'
+#      - title: Groupama
+#        text: This is a very short project description.
+#        icon: groupama.jpg
+#        url: '#'
+#      - title: Generali
+#        text: This is a very short project description.
+#        icon: generali.jpg
+#        url: '#'
+#      - title: DZI - part of KBC Group
+#        text: This is a very short project description.
+#        icon: dzi.jpg
+#        url: '#'
 
   - type: testimonials.html
     section_id: testimonials
     title: What the others say about us?
-    background_style: bg-dark text-primary
+    background_style: bg-dark text-white
+    divider_style: border-white
     height: 14em
     actions:
-    - name: Галина Димитрова
-      title: HR мениджъра на Нова Броудкастинг Груп
+    - name: Galina Dimitrova
+      title: HR manager, Nova Broadcasting Group
       text: |
-          Гордеем се, че служителите се припознават в общата мисия, а именно Създаваме вдъхновение, 
-          за да вълнуваме и оставяме следа. Удовлетворени сме, че вярват в смисъла на системата 
-          за оценка и развитие като средство за личностно и професионално развитие. 
-    - name: Ivan Ivanov
-      title: HR - Nova TV
-      text: We won the prize!
+          We are proud that employees recognize each other in the common mission of creating inspiration,
+          to excite and leave a mark. We are pleased that they believe in the meaning of the system
+          for assessment and development as a means of personal and professional development.
 
   - type: pricing.html
     section_id: pricing
@@ -128,26 +122,31 @@ sections:
     prices:
       - title: Free
         price: 0
-        interval: per month
-        action: Get Starter
+        interval: for month
+        action: Sign up now!
         url: '#'
         features:
-        - Up to 10 Users
-        - 10 Projects
-        - 5GB of Storage
-        - Unlimited Data
-        - Fully Security Suite
+        - Up to 3 users
+        - All modules included
+        - 100MB of content storage
       - title: Pro
-        price: $69
-        interval: per month
-        action: Get Starter
-        url: '#'
+        price: $3
+        interval: per user/per month/for module
+        action: Get Started
+        url: '#contacts'
         features:
-        - Up to 10 Users
-        - Unlimited Projects
+        - Up to 1000 users
         - 50GB of Storage
-        - Unlimited Data
-        - Fully Security Suite
+        - Choose the module you need
+      - title: Enterprise
+        price: ask
+        interval: per user/per month/for module
+        action: Call us!
+        url: '#contacts'
+        features:
+        - Unlimited users
+        - Get that space you need
+        - Choose the module you need
 
   - type: contact.html
     section_id: contacts

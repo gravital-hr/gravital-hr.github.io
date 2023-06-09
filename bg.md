@@ -3,93 +3,87 @@ layout: home
 menu_language: bg
 
 header:
-  title: Темата на български
+  title: Отдел човешки ресурси е гравитацията, която задържа талантите на едно място!
   text: >
-    Ето го и нашият сайт на български
+    Един цял отдел, в една платформа! Съберете всички ваши данни заедно и измерете
+    положителният ефект върху вашият бизнес.
   action: # action button is optional
     label: Готови ли сте да научите повече?
     url: '#about'
-
 
 sections:
   - type: call-to-action.html
     section_id: about
     background_style: bg-primary
-    title: Ние имаме това, от което се нуждаете.
+    title: Нужно ли работата да е всекидневна болка?
     text: |
-        Аз съм българче и силна
-        майка мене е родила;
-        с хубости, блага обилна
-        мойта родина е мила.
+        **От колко инструмента се нуждаете** за 
+        да можете да свършите ефективно своята работа **всеки ден**?
+        
+        Колко време сте загубили в търсене на важни данни за вашите
+        сложители, докато ровите из **безброй документи и папки**?
+        
+        До кога ще слушата основателните оплаквания на служителите ви
+        че трябва да използват **много и различни канали** за да си вземат
+        отпуска или да получат нужните им инструменти/обучения?
     actions:
-      - title: Научете повече
-        url: '#page-top'
+      - title: Сложете край!
+        url: '#pricing'
         class: btn-light
+        
 
   - type: services.html
     section_id: services
     #background_style: bg-info
-    title: Модули
+    title: <span class="brand">Това е Gravital</span>
     services:
-      - title: Обучение
-        text: Our templates are updated regularly so they don't break.
-        icon: bi-gem text-info
-        url: https://startbootstrap.com/
-      - title: Атестации
-        text: You can use this theme as is, or you can make changes!
-        icon: bi-rocket-takeoff
-      - title: Обратна връзка
-        text: We update dependencies to keep things fresh.
-        icon: bi-activity
-      - title: Организационна Структура
-        text: You have to make your websites with love these days!
-        icon: bi-heart-fill
+      - title: Система за електронно обучение
+        text: |
+            Създайте истинско смислено съдържание, и обучете новите си служите в нужните по закон практики,
+            но без необходимата до сега бюрокращина.
+            Помогнете на хората си да добиват нови знания. Проверете новите им знания и следете техният прогрес.
+        icon: bi-book
+        url: #
+      - title: Целеполагане
+        text: |
+            Дайте посока на **цялата компания**, задавайки SMART цели на всички нива, и статистика за тяхното
+            изпълнение. Вземете сложните решения за бонуси и повишения базарани на **истински данни** събрани
+            чрез редовни атестации.
+        icon: bi-list-check
+      - title: Ценности на компанията и 24/7 обратна връзка
+        text: |
+            Създайте стойност във вашата компания, от най-високото до най-ниското ниво.
+            Използвайте 24/7 обратна връзка за да фокусирате екипа във ценностите и отговорностите. 
+        icon: bi-stars
+      - title: Кариера и развитие
+        text: |
+            Пълен контрол и поглед върху процеса на наемане на кадри.
+            Равийте менторите във вашата организация. Насочете ги към хората които имат нужда от помощ.
+        icon: bi-person-up
+      - title: Отпуски
+        text: |
+            Просто си поискайте отпуска, вие го заслужавате! Без бумащина, без бюрокращина!
+        icon: bi-clock-history
+      - title: Инвертар
+        text: |
+            Създайте виртуален "вендинг автомат" за всички инструменти, от които хората ви се нуждаят
+            за да си вършат работата.
+        icon: bi-box-seam
 
-  - type: portfolio.html
-    # this section has always ID 'portfolio'
-    #section_id: portfolio
-    #background_style: bg-dark
-    projects:
-      - title: Project 1
-        text: This is a very short project description.
-        # the images are located in:
-        # img/portfolio/fullsize
-        # img/portfolio/thumbnails
-        icon: 1.jpg
-        url: '#'
-      - title: Project 2
-        text: This is a very short project description.
-        icon: 2.jpg
-        url: '#'
-      - title: Project 3
-        text: This is a very short project description.
-        icon: 3.jpg
-        url: '#'
-      - title: Project 4
-        text: This is a very short project description.
-        icon: 4.jpg
-        url: '#'
-      - title: Project 5
-        text: This is a very short project description.
-        icon: 5.jpg
-        url: '#'
-      - title: Project 6
-        text: This is a very short project description.
-        icon: 6.jpg
-        url: '#'
 
   - type: testimonials.html
     section_id: testimonials
-    title: Какво казват другите за нас?
-    background_style: bg-dark text-primary
-    height: 10em
+    title: What the others say about us?
+    background_style: bg-dark text-white
+    divider_style: border-white
+    height: 14em
     actions:
-    - name: Иван Иванов
-      title: Управител - Фантастико
-      text: Бахти якото
-    - name: Мария Бакалова
-      title: HR - Нова Телевизия
-      text: Благодарение на нашите партньори спечелихме наградата ...
+    - name: Галина Димитрова
+      title: HR мениджъра на Нова Броудкастинг Груп
+      text: |
+          Гордеем се, че служителите се припознават в общата мисия, а именно да създаваме вдъхновение, 
+          за да вълнуваме и оставяме следа. Удовлетворени сме, че вярват в смисъла на системата 
+          за оценка и развитие като средство за личностно и професионално развитие. 
 
   - type: pricing.html
     section_id: pricing
@@ -97,26 +91,32 @@ sections:
     prices:
       - title: Безплатно
         price: 0
-        interval: на месец
-        action: Обади се
+        interval: за месец
+        action: Опитай с бърза и лесна регистрация!
         url: '#'
         features:
-        - Up to 10 Users
-        - 10 Projects
-        - 5GB of Storage
-        - Unlimited Data
-        - Fully Security Suite
+        - До 3 потребителя
+        - Включени всички модули
+        - 100MB за съдържание
       - title: Про
-        price: $69
-        interval: на месец
-        action: Обади се
-        url: '#'
+        price: $3
+        interval: на човек/на месец/за модул
+        action: Започнете сега
+        url: '#contacts'
         features:
-        - Up to 10 Users
-        - Unlimited Projects
-        - 50GB of Storage
-        - Unlimited Data
-        - Fully Security Suite
+        - До 1000 потребителя
+        - 10GB за съдържание
+        - Изберете модулите от които се нуждаете
+      - title: Enterprise
+        price: ask
+        interval: per user/per month/for module
+        action: Call us!
+        url: '#contacts'
+        features:
+        - Без лимит на броя потребители
+        - Място за съдържание, колкото се нуждаете
+        - Изберете модулите от които се нуждаете
+
 
   - type: contact.html
     section_id: contacts
