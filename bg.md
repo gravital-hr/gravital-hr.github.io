@@ -89,33 +89,34 @@ sections:
     section_id: pricing
     #background_style: bg-info
     prices:
-      - title: Безплатно
-        price: 0
-        interval: за месец
-        action: Опитай с бърза и лесна регистрация!
-        url: '#'
-        features:
-        - До 3 потребителя
-        - Включени всички модули
-        - 100MB за съдържание
-      - title: Про
+      # - title: Безплатно
+      #   price: 0
+      #   interval: за месец
+      #   action: Опитай с бърза и лесна регистрация!
+      #   url: '#'
+      #   features:
+      #   - До 3 потребителя
+      #   - Включени всички модули
+      #   - 100MB за съдържание
+      - title: Цена
         price: $3
         interval: на човек/на месец/за модул
         action: Започнете сега
         url: '#contacts'
         features:
-        - До 1000 потребителя
-        - 10GB за съдържание
+        # - До 1000 потребителя
+        # - 10GB за съдържание
         - Изберете модулите от които се нуждаете
-      - title: Enterprise
-        price: ask
-        interval: per user/per month/for module
-        action: Call us!
-        url: '#contacts'
-        features:
-        - Без лимит на броя потребители
-        - Място за съдържание, колкото се нуждаете
-        - Изберете модулите от които се нуждаете
+        - 2 месеца безплатно при плащане за цяла година
+      # - title: Enterprise
+      #   price: ask
+      #   interval: per user/per month/for module
+      #   action: Call us!
+      #   url: '#contacts'
+      #   features:
+      #   - Без лимит на броя потребители
+      #   - Място за съдържание, колкото се нуждаете
+      #   - Изберете модулите от които се нуждаете
 
 
   - type: contact.html
@@ -130,11 +131,8 @@ sections:
     - title: E-Mail
       icon: bi-envelope-fill
       url: mailto:contact@yourwebsite.com
-    - title: Twitter
-      icon: bi-twitter
-      url: '#'
-    - title: Facebook
-      icon: bi-facebook
+    - title: Linkedin
+      icon: bi-linkedin
       url: '#'
 
 ---

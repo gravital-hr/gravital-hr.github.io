@@ -120,33 +120,34 @@ sections:
     section_id: pricing
     #background_style: bg-info
     prices:
-      - title: Free
-        price: 0
-        interval: for month
-        action: Sign up now!
-        url: '#'
-        features:
-        - Up to 3 users
-        - All modules included
-        - 100MB of content storage
-      - title: Pro
+      # - title: Free
+      #   price: 0
+      #   interval: for month
+      #   action: Sign up now!
+      #   url: '#'
+      #   features:
+      #   - Up to 3 users
+      #   - All modules included
+      #   - 100MB of content storage
+      - title: Pricing
         price: $3
         interval: per user/per month/for module
         action: Get Started
         url: '#contacts'
         features:
-        - Up to 1000 users
-        - 50GB of Storage
+        # - Up to 1000 users
+        # - 50GB of Storage
         - Choose the module you need
-      - title: Enterprise
-        price: ask
-        interval: per user/per month/for module
-        action: Call us!
-        url: '#contacts'
-        features:
-        - Unlimited users
-        - Get that space you need
-        - Choose the module you need
+        - 2 months free, if paid yearly
+      # - title: Enterprise
+      #   price: ask
+      #   interval: per user/per month/for module
+      #   action: Call us!
+      #   url: '#contacts'
+      #   features:
+      #   - Unlimited users
+      #   - Get that space you need
+      #   - Choose the module you need
 
   - type: contact.html
     section_id: contacts
@@ -160,11 +161,8 @@ sections:
     - title: E-Mail
       icon: bi-envelope-fill
       url: mailto:contact@yourwebsite.com
-    - title: Twitter
-      icon: bi-twitter
-      url: '#'
-    - title: Facebook
-      icon: bi-facebook
+    - title: Linkedin
+      icon: bi-linkedin
       url: '#'
 
 ---
