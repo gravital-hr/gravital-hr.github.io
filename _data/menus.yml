@@ -9,7 +9,7 @@ en:
       url: /#testimonials
     - title: Contacts
       url: /#contacts
-    - title: 🇧🇬
+    - title: <img src="/assets/flag-bulgaria_1f1e7-1f1ec.png" width="15px" alt="Премини на български език" />
       url: /bg
 bg:
     - title: За нас
@@ -22,5 +22,5 @@ bg:
       url: /bg#testimonials
     - title: Контакти
       url: /bg#contacts
-    - title: 🇬🇧
+    - title: <img src="/assets/flag-united-kingdom_1f1ec-1f1e7.png" width="15px" alt="Switch to English" />
       url: /
