@@ -1,8 +1,8 @@
 en:
     - title: About
-      url: /#about
-    - title: Modules
       url: /#services
+#    - title: Modules
+#     url: /#services
     - title: Prices
       url: /#pricing
     - title: Testimonials
@@ -13,9 +13,9 @@ en:
       url: /bg
 bg:
     - title: За нас
-      url: /bg#about
-    - title: Модули
       url: /bg#services
+#    - title: Модули
+#      url: /bg#services
     - title: Цени
       url: /bg#pricing
     - title: Отзиви
