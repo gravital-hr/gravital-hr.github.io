@@ -3,13 +3,13 @@ layout: home
 menu_language: en
 
 header:
-  title: The Gravity of Talents in one HR Software
+  title: The Gravity of Talents <br>in one HR Software
   text: >
-    Centralizing all HR data in a 
-    single platform resulting in 
+    Centralizing all HR data in a single platform 
+    <br>resulting in 
     measurable business outcomes.
   action: # action button is optional
-    label: Find Out More
+    label: Find Out how
     url: '#services'
 
 
@@ -19,34 +19,32 @@ sections:
     #background_style: bg-info
     title: Explore <p class="brand">Gravital</p>
     services:
-      - title: Learning Management System
+      - title: Learning Management
         text: |
-            Create seamless onboarding experience in compliance with the law.
-            Ensure people growth, through continuous learning, evaluation and progress tracking.
+            Create seamless onboarding experience with **position-specific automated programs**.
+            Ensure talant's growth through **continuous learning**. Manage **important documents** with digital signatures. 
         icon: bi-book
       - title: Goal Setting and Appraisal
         text: |
-            Create company alignment by setting SMART goals on all levels with insighfull statistics.
-            Make data-based decisions about bonuses and development by using regular appraisal campains.
+            Create company alignment by setting **SMART goals** on all levels with **insighfull statistics**.
+            Make data-based decisions about bonuses and development by using **regular appraisal campains**.
         icon: bi-list-check
       - title: Values and 24/7 Feedback
         text: |
-            Creating organizational values with top-down approach.
-            24/7 peer-to-peer Feedback system focused on values and responsibilites.
+            Prioritize and communicate **the organizational values** with top-down approach.
+            Encourage **peer-to-peer feedback** based on the values of specific teams and organizational entities.
         icon: bi-stars
       - title: Career & Development
         text: |
-            Full control and insights about the recruitment process.
-            Provide guidelines and information to connect mentors and mentees.
+            Find the hidden talents in the organization for **open positions**. Give the opportunity to the outstanding talents to grow as **mentors** to the new employees.
         icon: bi-person-up
       - title: Time Off Management
         text: |
-            Just get some time-off when needed. No paperwork, no bureaucracy!
+            Simplify the management of **time-off requests** with seamless digital solution. <br>We've made it easy for employees, managers, and HR.
         icon: bi-clock-history
       - title: Inventory Management
         text: |
-            A "vending machine" for all the tools that enables your staff to simlpy
-            do their job effectively.
+            Enhance accessibility to the **essential resources** needed by talents to perform their jobs effectively. **Manage quantities** while minimizing unnecessary additional costs.
         icon: bi-box-seam
   
   - type: call-to-action.html
@@ -122,7 +120,7 @@ sections:
         features:
         # - Up to 1000 users
         # - 50GB of Storage
-        - Choose the module you need
+        - Choose the modules you need
         - 2 months free, if paid yearly
       # - title: Enterprise
       #   price: ask
@@ -136,6 +134,7 @@ sections:
 
   - type: testimonials.html
     section_id: testimonials
+    title: Our gravity attracted
     background_style: bg-dark text-white
     divider_style: border-white
     height: 14em
@@ -144,7 +143,7 @@ sections:
       title: HR manager, Nova Broadcasting Group
       text: |
           We are proud that employees recognize each other in the common mission of creating inspiration,
-          to excite and leave a mark. We are pleased that they believe in the meaning of the system
+          to excite and leave a mark. We are pleased that they believe in the meaning of the platform
           for assessment and development as a means of personal and professional development.
 
 
@@ -152,7 +151,7 @@ sections:
     section_id: contacts
     title: Let's Get In Touch!
     text: >-
-       Contact us to find the most suitable solution the talents in your organization!
+       Does our offering spark your curiosity? Contact us to help you find the most suitable solution for the talents in your organization!
     actions:
     - title: +1 (202) 555-014
       icon: bi-telephone-fill
