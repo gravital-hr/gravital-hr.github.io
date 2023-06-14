@@ -16,6 +16,7 @@ sections:
   - type: services.html
     section_id: services
     #background_style: bg-info
+    service_title_style: text-primary fw-semibold
     title: Това е <p class="brand">Gravital</p>
     services:
       - title: Система за електронни обучения и документи
