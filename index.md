@@ -10,33 +10,14 @@ header:
     measurable business outcomes.
   action: # action button is optional
     label: Find Out More
-    url: '#about'
+    url: '#services'
 
 
 sections:
-  - type: call-to-action.html
-    section_id: about
-    background_style: bg-primary
-    title: We feel your pain!
-    text: |
-        **How many different software tools** for 
-        workforce management do you have to use **daily**?
-        
-        How much valuable time is waisted in gathering HR data 
-        for the employee’s journey **from different sources**?
-        
-        How long you'll have to listen to complains that employes
-        have to keep track of their requests across **several, 
-        platforms**.
-    actions:
-      - title: End it now!
-        url: '#pricing'
-        class: btn-light
-
   - type: services.html
     section_id: services
     #background_style: bg-info
-    title: <span class="brand">Explore Gravital</span>
+    title: Explore <p class="brand">Gravital</p>
     services:
       - title: Learning Management System
         text: |
@@ -67,6 +48,24 @@ sections:
             A "vending machine" for all the tools that enables your staff to simlpy
             do their job effectively.
         icon: bi-box-seam
+  
+  - type: call-to-action.html
+    section_id: about
+    background_style: bg-primary
+    title: Do more, with less
+    text: |
+        How many **different software tools** do you use <br>for daily
+        workforce management?
+        
+        How much valuable time is waisted in gathering HR data <br>
+        for the employee’s journey **from different sources**?
+        
+        How long you'll have to listen to complains from employees 
+        about the **multiple channels** for communication and work management?
+    actions:
+      - title: Find out how
+        url: '#pricing'
+        class: btn-light
 
 #  - type: portfolio.html
 #    projects:
@@ -102,20 +101,6 @@ sections:
 #        icon: dzi.jpg
 #        url: '#'
 
-  - type: testimonials.html
-    section_id: testimonials
-    title: What the others say about us?
-    background_style: bg-dark text-white
-    divider_style: border-white
-    height: 14em
-    actions:
-    - name: Galina Dimitrova
-      title: HR manager, Nova Broadcasting Group
-      text: |
-          We are proud that employees recognize each other in the common mission of creating inspiration,
-          to excite and leave a mark. We are pleased that they believe in the meaning of the system
-          for assessment and development as a means of personal and professional development.
-
   - type: pricing.html
     section_id: pricing
     #background_style: bg-info
@@ -149,12 +134,25 @@ sections:
       #   - Get that space you need
       #   - Choose the module you need
 
+  - type: testimonials.html
+    section_id: testimonials
+    background_style: bg-dark text-white
+    divider_style: border-white
+    height: 14em
+    actions:
+    - name: Galina Dimitrova
+      title: HR manager, Nova Broadcasting Group
+      text: |
+          We are proud that employees recognize each other in the common mission of creating inspiration,
+          to excite and leave a mark. We are pleased that they believe in the meaning of the system
+          for assessment and development as a means of personal and professional development.
+
+
   - type: contact.html
     section_id: contacts
     title: Let's Get In Touch!
     text: >-
-      Ready to start your next project with us? Give us a call or send us an email
-      and we will get back to you as soon as possible!
+       Contact us to find the most suitable solution the talents in your organization!
     actions:
     - title: +1 (202) 555-014
       icon: bi-telephone-fill

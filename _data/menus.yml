@@ -3,23 +3,23 @@ en:
       url: /#about
     - title: Modules
       url: /#services
-    - title: Testimonials
-      url: /#testimonials
     - title: Prices
       url: /#pricing
+    - title: Testimonials
+      url: /#testimonials
     - title: Contacts
       url: /#contacts
     - title: 🇧🇬
       url: /bg
 bg:
-    - title: Относно
+    - title: За нас
       url: /bg#about
     - title: Модули
       url: /bg#services
-    - title: Отзиви
-      url: /bg#testimonials
     - title: Цени
       url: /bg#pricing
+    - title: Отзиви
+      url: /bg#testimonials
     - title: Контакти
       url: /bg#contacts
     - title: 🇬🇧
