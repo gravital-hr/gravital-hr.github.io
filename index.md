@@ -17,6 +17,7 @@ sections:
   - type: services.html
     section_id: services
     #background_style: bg-info
+    service_title_style: text-primary fw-semibold
     title: Explore <p class="brand">Gravital</p>
     services:
       - title: Learning Management
