@@ -23,12 +23,12 @@ sections:
       - title: Learning Management
         text: |
             Create seamless onboarding experience with **position-specific automated programs**.
-            Ensure talant's growth through **continuous learning**. Manage **important documents** with digital signatures. 
+            Ensure talent's growth through **continuous learning**. Manage **important documents** with digital signatures. 
         icon: bi-book
       - title: Goal Setting and Appraisal
         text: |
-            Create company alignment by setting **SMART goals** on all levels with **insighfull statistics**.
-            Make data-based decisions about bonuses and development by using **regular appraisal campains**.
+            Create company alignment by setting **SMART goals** on all levels with **insightful statistics**.
+            Make data-based decisions about bonuses and development by using **regular appraisal campaigns**.
         icon: bi-list-check
       - title: Values and 24/7 Feedback
         text: |
@@ -56,10 +56,10 @@ sections:
         How many **different software tools** do you use <br>for daily
         workforce management?
         
-        How much valuable time is waisted in gathering HR data <br>
+        How much valuable time is wasted in gathering HR data <br>
         for the employee’s journey **from different sources**?
         
-        How long you'll have to listen to complains from employees 
+        How long you'll have to listen to complaints from employees 
         about the **multiple channels** for communication and work management?
     actions:
       - title: Find out how
