@@ -126,9 +126,9 @@ sections:
       icon: bi-telephone-fill
     - title: E-Mail
       icon: bi-envelope-fill
-      url: mailto:contact@yourwebsite.com
+      url: mailto:info@gravital.hr
     - title: Linkedin
       icon: bi-linkedin
-      url: '#'
+      url: 'https://www.linkedin.com/company/gravital-hr/'
 
 ---
