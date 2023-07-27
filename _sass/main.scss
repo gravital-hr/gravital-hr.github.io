@@ -57,7 +57,8 @@ $input-padding-y: 1rem;
 $input-padding-x: 1rem;
 $input-border-radius: .5rem;
 
-@import "bootstrap/scss/bootstrap.scss";
+// @import "bootstrap/scss/bootstrap.scss";
+@import "bootstrap";
 
 // configure custom component
 $x-section-gap: 2rem;
