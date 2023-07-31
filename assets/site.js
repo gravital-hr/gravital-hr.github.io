@@ -1,5 +1,5 @@
-// const apiBaseUri = 'https://registration.gravital.hr';
-const apiBaseUri = 'http://localhost:8000';
+const apiBaseUri = 'https://registration.gravital.hr';
+// const apiBaseUri = 'http://localhost:8000';
 
 window.onload = (event) => {
     const requestDemoForm = document.getElementById('requestDemoForm');
