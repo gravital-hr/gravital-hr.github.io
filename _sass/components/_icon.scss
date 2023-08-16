@@ -1,0 +1,29 @@
+.icon {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: $x-icon-size;
+    height: $x-icon-size;
+    color: $primary;
+
+    svg {
+        width: calc(#{$x-icon-size} * 0.6);
+        height: calc(#{$x-icon-size} * 0.6)
+    }
+
+    &.circled {
+        border-radius: 100%;
+    }
+
+    &.small {
+        width: $x-icon-size-small;
+        height: $x-icon-size-small;
+        margin-left: auto;
+        margin-right: auto;
+
+        svg {
+            width: calc(#{$x-icon-size-small} * 0.6);
+            height: calc(#{$x-icon-size-small} * 0.6);
+        }
+    }
+}

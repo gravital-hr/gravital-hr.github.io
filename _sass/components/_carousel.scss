@@ -1,0 +1,10 @@
+.carousel-inner {
+    margin: auto;
+    width: 70%;
+    height: 60vh;
+
+    @include media-breakpoint-down(sm) {
+        height: 80vh;
+    }
+
+}

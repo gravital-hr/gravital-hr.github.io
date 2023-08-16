@@ -1,0 +1,53 @@
+.btn-xl {
+    @include button-size($btn-padding-y-lg * 1, $btn-padding-x-lg * 2, $btn-font-size-lg, $btn-font-size);
+    font-weight: 900;
+    margin-right: 1rem;
+}
+
+a {
+    padding: 4px 0;
+    display: inline-block;
+    border-bottom: 1px dotted $link-color;
+}
+
+h1 {
+    color: $body-emphasis-color;
+}
+
+.text-brand,
+.navbar-brand {
+    font-family: $font-family-brand;
+}
+
+.hide-on-mobile {
+    @include media-breakpoint-down(sm) {
+        display: none !important;
+    }
+}
+
+.hide-on-desktop {
+    @include media-breakpoint-up(sm) {
+        display: none !important;
+    }
+}
+
+img.avatar {
+    width: 128px !important;
+    height: 128px !important;
+    border-radius: 128px !important;
+}
+
+#toTheTop {
+    position: fixed;
+    border: none;
+    bottom: 4rem;
+    right: 4rem;
+    color: $primary;
+    background-color: $secondary;
+    box-shadow: 0 .5rem 1rem $black;
+}
+
+body footer {
+    box-shadow: 0 .5rem 1rem $black;
+    background-color: $white;
+}

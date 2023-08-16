@@ -1,5 +1,16 @@
-copyright: '&copy; Start Bootstrap'
-links:
-  - text: Creative
-    url: 'https://startbootstrap.com/themes/creative/'
-    new_window: true
+bg:
+  copyright: "&copy; Copyright 2023 01hub, Всички права запазени"
+  links:
+    - url: /bg-privacy-policy
+      text: Политика за поверителност
+      # new_window: 1
+    - url: /bg-cookie-policy
+      text: Политика за бисквитките
+en:
+  copyright: "&copy; Copyright 2023 01hub, All Rights Reserved"
+  links:
+    - url: /privacy-policy
+      text: Privacy Policy
+      # new_window: 1
+    - url: /cookie-policy
+      text: Cookies Policy

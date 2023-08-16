@@ -1,0 +1,22 @@
+<section class="slide {{ section.style }} cols-2" id="{{ section.id }}">
+    <div class="hide-on-mobile">
+        <img src="{{ section.image }}" alt="{{ section.title }}" />
+    </div>
+    <div style="align-self: center">
+        {% if section.title %}
+        <h3 class="mb-5 {{ section.title_style }}">{{ section.title }}</h3>
+        {% endif %}
+        <div class="list_with_icons">
+            {% for f in section.features %}
+            <div class="{{ f.icon_style | default: 'text-white bg-warning' }} icon circled">
+                {{ f.icon }}
+            </div>
+            <div>
+                {{ f.text | markdownify | remove: '<p>' | remove: '</p>' }}
+            </div>
+            {% endfor %}
+        </div>
+
+        {% include actions.html actions=section.actions %}
+    </div>
+</section>

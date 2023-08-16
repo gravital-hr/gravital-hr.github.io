@@ -1,0 +1,13 @@
+<section class="slide {{ section.style }} cols-3" id="{{ section.id }}">
+    {% for f in section.features %}
+    <div>
+        <div class="icon circled text-white bg-primary">
+            {{ f.icon }}
+        </div>
+        <p class="text-primary mt-3">{{ f.title }}</p>
+        <p>
+            {{ f.text | markdownify }}
+        </p>
+    </div>
+    {% endfor %}
+</section>
