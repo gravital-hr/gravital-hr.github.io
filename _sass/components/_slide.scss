@@ -1,5 +1,5 @@
 section.slide {
-    min-height: 100vh;
+    min-height: calc(100vh - 2rem);
     background-color: $primary;
     color: $white;
     padding: $x-section-padding;
