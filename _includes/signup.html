@@ -27,7 +27,7 @@
             <form id="signupForm" class="needs-validation row g-1 gap-2">
                 <input type="hidden" name="lang" value="{{page.menu_language}}" />
                 <input type="text" name="company_name" class="form-control"
-                    placeholder="{{ section.form.labels.company_name }}" required />
+                    placeholder="{{ section.form.labels.company_name }}" minlength="3" required />
                 <input type="text" name="name" class="form-control" placeholder="{{ section.form.labels.name }}"
                     required />
                 <input type="email" name="email" class="form-control" placeholder="{{ section.form.labels.email }}"
