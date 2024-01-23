@@ -19,6 +19,7 @@ window.onload = (event) => {
         const response = await post(form, '/api/v1/subscriptions', {
             name: form.name.value,
             email: form.email.value,
+            phone: form.phone.value,
         });
         if (response?.ok) {
             msgSuccess.classList.remove('visually-hidden');
