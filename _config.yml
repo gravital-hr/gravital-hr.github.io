@@ -1,12 +1,13 @@
 # Site settings
 title: GRAVITAL
 description: > # this means to ignore newlines until "baseurl:"
+  The Gravity of Talents in one HR Software.
+  Centralizing all HR data in a single platform resulting in measurable business outcomes.
 repository: gravital-hr/gravital-hr
 baseurl: "" # the subpath of your site, e.g. /blog/
 url: "" # the base hostname & protocol for your site
 author: Copyright &copy; 2024 - 01-Hub Ltd.
 lang: en_US
-logo: /assets/img/laptop_mockup.png
 
 # Build settings
 safe: true # always trues on github-pages, disables _plugins/

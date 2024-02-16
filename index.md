@@ -1,5 +1,6 @@
 ---
 layout: home
+image: /assets/img/laptop_mockup.png
 menu_language: en
 
 sections:
