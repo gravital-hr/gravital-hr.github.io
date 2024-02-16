@@ -4,8 +4,9 @@ description: > # this means to ignore newlines until "baseurl:"
 repository: gravital-hr/gravital-hr
 baseurl: "" # the subpath of your site, e.g. /blog/
 url: "" # the base hostname & protocol for your site
-author: Copyright &copy; 2019 - Start Bootstrap
+author: Copyright &copy; 2024 - 01-Hub Ltd.
 lang: en_US
+logo: /assets/img/laptop_mockup.png
 
 # Build settings
 safe: true # always trues on github-pages, disables _plugins/
