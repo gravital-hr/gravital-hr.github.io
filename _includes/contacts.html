@@ -1,13 +1,40 @@
 <section class="slide {{ section.style }} cols-2" id="{{ section.id }}">
     <div>
-        <div class="card shadow border-0 p-4 bg-light" style="width: 80%;">
+        <div class="card bg-light border-0 p-4 shadow" style="width: 80%">
             <h3 class="mb-3">{{ section.form.title }}</h3>
             <form id="requestDemoForm" class="needs-validation row g-1 gap-2">
-                <input type="text" name="name" class="form-control" placeholder="{{ section.form.labels.name }}"
-                    required>
-                <input type="email" name="email" class="form-control" placeholder="{{ section.form.labels.email }}"
-                    required>
-                <input type="phone" name="phone" class="form-control" placeholder="{{ section.form.labels.phone }}">
+                <input
+                    type="text"
+                    name="name"
+                    class="form-control"
+                    placeholder="{{ section.form.labels.name }}"
+                    required
+                />
+                <input
+                    type="email"
+                    name="email"
+                    class="form-control"
+                    placeholder="{{ section.form.labels.email }}"
+                    required
+                />
+                <input
+                    type="phone"
+                    name="phone"
+                    class="form-control"
+                    placeholder="{{ section.form.labels.phone }}"
+                />
+                <div class="form-check">
+                    <input
+                        class="form-check-input"
+                        type="checkbox"
+                        required
+                        name="accept-policy"
+                        id="accept-policy"
+                    />
+                    <label class="form-check-label" for="accept-privacy-policy">
+                        {{ section.form.labels.checkbox }}
+                    </label>
+                </div>
 
                 <div class="alert alert-danger visually-hidden" role="alert">
                     {{ section.form.fail_msg }}
@@ -15,7 +42,9 @@
                 <div class="alert alert-success visually-hidden" role="alert">
                     {{ section.form.success_msg }}
                 </div>
-                <button class="btn btn-primary" type="submit">{{ section.form.labels.button }}</button>
+                <button class="btn btn-primary" type="submit">
+                    {{ section.form.labels.button }}
+                </button>
             </form>
         </div>
     </div>
@@ -24,7 +53,9 @@
         {{ section.text | markdownify}}
         <div class="list_with_icons">
             {% for f in section.actions %}
-            <div class="{{ f.icon_style | default: 'text-white bg-warning' }} icon circled">
+            <div
+                class="{{ f.icon_style | default: 'text-white bg-warning' }} icon circled"
+            >
                 {{ f.icon }}
             </div>
             <div>
@@ -33,5 +64,4 @@
             {% endfor %}
         </div>
     </div>
-
 </section>

@@ -1,16 +1,16 @@
 bg:
   copyright: "&copy; Copyright 2023 01hub, Всички права запазени"
   links:
-    - url: /bg-privacy-policy
+    - url: /privacy-policy
       text: Политика за поверителност
       # new_window: 1
-    - url: /bg-cookie-policy
+    - url: /cookie-policy
       text: Политика за бисквитките
 en:
   copyright: "&copy; Copyright 2023 01hub, All Rights Reserved"
   links:
-    - url: /privacy-policy
+    - url: /en-privacy-policy
       text: Privacy Policy
       # new_window: 1
-    - url: /cookie-policy
+    - url: /en-cookie-policy
       text: Cookies Policy

@@ -1,35 +1,36 @@
 ---
 layout: home
-menu_language: en
+menu_language: bg
 
 sections:
   - id: hero
     type: confirm.html
-    title: The Gravity of Talents in one HR Software
+    title: Гравитацията привличаща талантите на едно място!
     text: |
-      Centralizing all HR data in a single platform
-      resulting in measurable business outcomes.
+      Платформата, която превръща данните за човешкия ресурс
+      в измерими бизнес резултати.
 
-      You are step away from joining our HR community.
+      Само една крачка ви дели от присъединяването към нашата
+      динамична общност!
 
-      Confirm you registration and get access to the
-      platform created specially for you!
+      Потвърдете регистрацията си, за да получите достъп до
+      платформата създадена специално за Вас!
     confirm:
-      title: Registration confirmed
+      title: Потвърдена регистрация
       text: |
-        Congratulations!
+        Поздравление!
 
-        Your registration is successfully confirmed!
+        Регистрацията на вашата компания е потвърдена успешно!
 
-        Check your emal for instructions how to access
-        your Gravital instance.
+        До няколко минути ще получите поща с линк за вход,
+        потребителско име и парола.
     form:
-      title: Confirm you registration
-      text: Please enter the confirmation code, that you received in you email box.
+      title: Потвърдете регистрацията
+      text: Въведете кода, който сте получили на електронната си поща.
       labels:
         confirmation_code:
-          text: Confirmation code
-          error: Please enter correct confirmation code
-        button: Confirm
+          text: Код за потвърждение
+          error: Моля въведете коректен код
+        button: Потвърди
 
 ---
