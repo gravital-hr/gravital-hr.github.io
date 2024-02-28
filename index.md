@@ -109,21 +109,20 @@ sections:
     # title_class: text-white
     image: /assets/img/artwork.documents.svg
     actions:
-      - title: Поръчай!
+      - title: Заяви демо!
         url: '#contacts'
         # class: btn-secondary text-primary
-      - title: |
-          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z" fill="none"></path><path d="M13 4m-1 0a1 1 0 1 0 2 0a1 1 0 1 0 -2 0"></path><path d="M4 17l5 1l.75 -1.5"></path><path d="M15 21l0 -4l-4 -3l1 -6"></path><path d="M7 12l0 -3l5 -1l3 3l3 1"></path></svg>
-          Регистрация
-        url: '/signup'
     features:
-      - text: на човек/на месец/за модул
+      - text: на човек/на месец
         icon: <div><b class="fs-3">6</b>лв</div>
         icon_style: bg-warning
-      - text: Изберете модулите, от които се нуждаете
+      - text: Без ограничения и без допълнителни такси
         icon_style: text-white bg-primary small
         icon: <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="tabler-icon tabler-icon-check"><path d="M5 12l5 5l10 -10"></path></svg>
-      - text: 2 месеца безплатно, при плащане за цяла година
+      - text: Най-нужните и най-ефикасни модули на едно място
+        icon_style: text-white bg-primary small
+        icon: <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="tabler-icon tabler-icon-check"><path d="M5 12l5 5l10 -10"></path></svg>
+      - text: Гарантиран достъп до всички нови версии без доплащане
         icon_style: text-white bg-primary small
         icon: <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="tabler-icon tabler-icon-check"><path d="M5 12l5 5l10 -10"></path></svg>
 
