@@ -100,7 +100,7 @@ window.onload = (event) => {
   const userSite = decodeURIComponent(getCookie("gravital_site"));
   const loginButton = document.getElementById("login-button");
   if (userSite) {
-    loginButton.attributes.href = userSite;
+    loginButton.href = userSite;
     document.getElementById("sign-up-button").remove();
   } else {
     loginButton.remove();
