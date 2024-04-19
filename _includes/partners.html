@@ -1,0 +1,9 @@
+<section class=" d-flex justify-content-center p-4 bg-white {{ section.style }}" id="{{ section.id }}">
+    {% if section.partners %}
+    {% for f in section.partners %}
+    <a href="{{ f.url }}" style="border: none;">
+        <img src="{{ f.img }}" alt="{{ f.title }}" style="height: 78px; object-fit: contain" />
+    </a>
+    {% endfor %}
+    {% endif %}
+</section>

@@ -169,5 +169,19 @@ sections:
       icon_style: text-white bg-primary
       icon: <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z" fill="none"></path><path d="M4 4m0 2a2 2 0 0 1 2 -2h12a2 2 0 0 1 2 2v12a2 2 0 0 1 -2 2h-12a2 2 0 0 1 -2 -2z"></path><path d="M8 11l0 5"></path><path d="M8 8l0 .01"></path><path d="M12 16l0 -5"></path><path d="M16 16v-3a2 2 0 0 0 -4 0"></path></svg>
 
+  - id: partners
+    type: partners.html
+    style: white
+    title: Partners
+    partners:
+    - title: European Regional Development Fund
+      url: https://ec.europa.eu/regional_policy/funding/erdf_en
+      img: /assets/img/erdf-en.jpg
+    - title: Фонд мениджър на финансови инструменти в България
+      url: '#'
+      img: /assets/img/fof-en.png
+    - title: Оперативна програма иновации и конкурентноспособност
+      url: https://ec.europa.eu/regional_policy/in-your-country/programmes/2014-2020/bg/2014bg16rfop002_en
+      img: /assets/img/opic-en.jpg
 
 ---
