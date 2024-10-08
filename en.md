@@ -173,6 +173,7 @@ sections:
     type: partners.html
     style: white
     title: Partners
+    partners_footer_text: 01 Hub Ltd. has been supported by "Vitosha Venture Partners Fund l", a private equity fund, co-financed by the European Structural and Investment Funds under the operational program “Innovation and Competitiveness 2014-2020”, managed by the Fund Manager of Financial Instruments in Bulgaria.
     partners:
     - title: European Regional Development Fund
       url: https://ec.europa.eu/regional_policy/funding/erdf_en
