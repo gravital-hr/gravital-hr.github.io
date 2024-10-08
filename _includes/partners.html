@@ -1,14 +1,16 @@
 <section class="d-sm-flex gap-sm justify-content-center bg-white {{ section.style }}" id="{{ section.id }}">
-    {% if section.partners %} {% for f in section.partners %}
-    <a href="{{ f.url }}" style="border: none" class="d-flex justify-content-center">
-        <img src="{{ f.img }}" alt="{{ f.title }}" style="height: 78px; object-fit: contain" />
-    </a>
-    {% endfor %} {% endif %}
-    <br>
-    <br>
+    {% if section.partners %}
+    <div class="d-flex justify-content-center flex-wrap">
+        {% for f in section.partners %}
+        <a href="{{ f.url }}" style="border: none" class="d-flex justify-content-center">
+            <img src="{{ f.img }}" alt="{{ f.title }}" style="height: 78px; object-fit: contain" />
+        </a>
+        {% endfor %}
+    </div>
+    {% endif %}
     {% if section.partners_footer_text %}
-        <div class="text-center mt-3">
-            <p>{{ section.partners_footer_text }}</p>
-        </div>
+    <div class="text-center mt-3">
+        <p>{{ section.partners_footer_text }}</p>
+    </div>
     {% endif %}
 </section>
