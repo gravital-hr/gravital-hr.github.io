@@ -61,6 +61,12 @@ window.onload = (event) => {
       e.preventDefault();
       e.stopPropagation();
 
+      const recaptchaResponse = grecaptcha.getResponse();
+
+      if (!recaptchaResponse) {
+        return;
+      }
+
       const form = e.currentTarget;
       const msgSuccess = form.querySelector(".alert-success");
       const msgFail = form.querySelector(".alert-danger");
