@@ -1,18 +1,33 @@
 <section class="d-sm-flex gap-sm justify-content-center bg-white {{ section.style }}" id="{{ section.id }}">
     <div class="d-flex flex-column align-items-center">
+        {% if section.partners_footer_text %}
+        <div class="text-center mt-3 mx-5 fs-6">
+            <p>{{ section.partners_footer_text }}</p>
+        </div>
+        {% endif %}
         {% if section.partners %}
             <div class="d-flex justify-content-center gap-3">
                 {% for f in section.partners %}
-                    <a href="{{ f.url }}" style="border: none" class="d-flex justify-content-center">
+                    <a href="{{ f.url }}" style="border: none" class="d-flex justify-content-center" target="_blank">
                         <img src="{{ f.img }}" alt="{{ f.title }}" style="height: 78px; object-fit: contain" />
                     </a>
                 {% endfor %}
             </div>
         {% endif %}
-        {% if section.partners_footer_text %}
-        <div class="text-center mt-3 mx-5">
-            <p>{{ section.partners_footer_text }}</p>
+
+        {% if section.partners_footer_text_2 %}
+        <div class="text-center mt-3 mx-5 fs-6">
+            <p>{{ section.partners_footer_text_2 }}</p>
         </div>
+        {% endif %}
+        {% if section.partners_2 %}
+            <div class="d-flex justify-content-center gap-3 mb-4">
+                {% for f in section.partners_2 %}
+                    <a href="{{ f.url }}" style="border: none" class="d-flex justify-content-center" target="_blank">
+                        <img src="{{ f.img }}" alt="{{ f.title }}" style="height: 78px; object-fit: contain" />
+                    </a>
+                {% endfor %}
+            </div>
         {% endif %}
     </div>
 </section>

@@ -173,7 +173,8 @@ sections:
     type: partners.html
     style: white
     title: Partners
-    partners_footer_text: 01 Hub Ltd. has been supported by "Vitosha Venture Partners Fund l", a private equity fund, co-financed by the European Structural and Investment Funds under the operational program “Innovation and Competitiveness 2014-2020”, managed by the Fund Manager of Financial Instruments in Bulgaria.
+    partners_footer_text: 01 Hub Ltd. has been supported by "Vitosha Venture Partners Fund l", a private equity fund, co-financed by the European Structural and Investment Funds under the operational program "Innovation and Competitiveness 2014-2020", managed by the Fund Manager of Financial Instruments in Bulgaria.
+    partners_footer_text_2: Investor in the Company is Innovation Capital Fund KDA, whose activities are co-financed by the European Regional Development Fund under the Operational Program "Innovation and Competitiveness 2014-2020", managed by the Fund of Funds in Bulgaria. The value of the investment is 25500 euro.
     partners:
     - title: European Regional Development Fund
       url: https://ec.europa.eu/regional_policy/funding/erdf_en
@@ -184,5 +185,9 @@ sections:
     - title: Оперативна програма иновации и конкурентноспособност
       url: https://ec.europa.eu/regional_policy/in-your-country/programmes/2014-2020/bg/2014bg16rfop002_en
       img: /assets/img/opic-en.jpg
+    partners_2:
+    - title: Innovation Capital Fund
+      url: https://www.innovationcapital.bg/
+      img: /assets/img/Innovation_Capital_Logo1.png
 
 ---
