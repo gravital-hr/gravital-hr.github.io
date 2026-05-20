@@ -6,7 +6,7 @@ description: > # this means to ignore newlines until "baseurl:"
 repository: gravital-hr/gravital-hr
 baseurl: "" # the subpath of your site, e.g. /blog/
 url: "" # the base hostname & protocol for your site
-author: Copyright &copy; 2024 - 01-Hub Ltd.
+author: Copyright &copy; 2026 - TSD Software Ltd.
 lang: en_US
 
 # Build settings
